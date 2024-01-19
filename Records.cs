@@ -6,7 +6,7 @@ public class Records
     {
         // Instantiating records
         var person = new Person("Alice", 30);
-        var employee = new Employee("Bob", 35) { Department = "Finance" };
+        var employee = new Employee("Bob", 35) with { Department = "Finance" };
         var manager = new Manager("Carol", 40, "HR");
 
         // 5. Deconstructing records
