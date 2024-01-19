@@ -1,12 +1,9 @@
 ﻿using System;
 
-namespace MyConsoleApp
+class EntryPoint
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, SeeSharp!");
-        }
+        Records.Run();
     }
 }
